@@ -1,0 +1,334 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: "Roboto";
+    padding-top: 60px;
+    
+}
+
+header h1 {
+    color: #FF0043;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header button {
+    color: white;
+    background-color: #FF0043;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstsection{
+    display: flex;
+    
+}
+
+.firstsection img {
+    padding-left: 100px;
+    padding-top: -50px;
+    width: 655px;
+    height: 604px;
+
+}
+.firstsection h2 {
+    font-size: 60px;
+    font-weight: 500;
+    width: 550px;
+    color: #00194A;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+}
+
+.firstsection p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 530px;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+}
+
+.firstsection button {
+    color: white;
+    background-color: #FF0043;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 40px;
+
+}
+
+.secondsection {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.secondsection > div {
+    box-shadow: 0 0 25px  rgba( 0, 0, 0, 0.03);
+    width: 360px;
+    height: 272px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.secondsection p {
+    width: 100%;
+    font-size: 16px;
+    color: #00194A;
+    font-weight: 300;
+}
+
+.secondsection h3 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #00194A;
+}
+.firstsection h2 {
+    margin-top: 160px;
+}
+.secondsection > div > div  {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 400;
+   
+
+}
+
+.secondsection > div > div p {
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+    text-decoration: underline;
+    color: #00194A;
+    font-size: 16px;
+}
+.thirdsection {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.thirdsection img {
+    width: 676px;
+    height: 635px;
+    position: relative;
+    right: 114px;
+}
+
+.thirdsection > div h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #00194A;
+    width: 466px;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+}
+
+.thirdsection > div  p {
+    width: 466px;
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+    line-height: 28px;
+    color: #00194A;
+}
+
+.thirdsection > div {
+    padding-top: 162px;
+    margin-left: -114px;
+}
+.fourthsection {
+    display: flex;
+    justify-content: space-between;
+}
+.fourthsection-text {
+    margin-top: 115px;
+}
+.fourthsection > div {
+    padding-top: 115px;
+
+}
+
+.fourthsection > div h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #00194A;
+    width: 466px;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+    line-height: 50px;
+}
+
+.fourthsection > div p {
+    width: 466px;
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+    line-height: 28px;
+    color: #00194A;
+}
+
+.fourthsection-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.fourthsection-cards > div > div {
+    width: 260px;
+    height: 249px;
+    color: #00194A;
+    box-shadow: 0 0 25px  rgba( 0, 0, 0, 0.03);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    
+}
+
+.fourthsection-cards > div h3 {
+    font-size: 18px;
+    text-shadow: none;
+}
+
+.fourthsection-cards > div p {
+    font-size: 14px;
+    width: 220px;
+    line-height: 23px;
+
+}
+
+.fourthsection-cards2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.fifthsection {
+    display: flex;
+    padding-top: 100px;
+}
+
+.fifthsection img {
+    width: 542px;
+    height: 699px;
+}
+
+.fifthsection h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #00194A;
+    width: 466px;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+    line-height: 50px;
+}
+
+.fifthsection p {
+    width: 466px;
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 0 4px 4px  rgba( 0, 0, 0, 0.25);
+    line-height: 28px;
+    color: #00194A;
+}
+
+.fifthsection > div {
+    padding-top: 204px;
+    padding-left: 30px;
+}
+
+.sixthsection {
+    padding-top: 100px;
+}
+
+.sixthsection > div {
+    width: 1140px;
+    height: 346px;
+    background-color: #00194A;
+    border-radius: 25px;
+    color: #FFFFFF;
+    
+}
+
+.sixthsection h3 {
+    font-size: 35px;
+    font-weight: 500;
+    width: 580px;
+    text-align: center;
+    
+}
+
+.sixthsection p {
+    width: 580px;
+    
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.sixthsection > div > div {
+    padding-top: 25px;
+    padding-left: 280px;
+}
+
+
+.sixthsection button {
+    
+    color: white;
+    background-color: #FF0043;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 51px;
+    padding-right: 51px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.sixthsection > div > div > div {
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+.footer1p {
+    color: #00194A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer2p {
+    color: #00194A;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 40px;
+    padding-left: 542px;
+    
+}
